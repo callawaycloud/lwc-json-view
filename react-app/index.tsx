@@ -1,15 +1,10 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 
-import { Hello, HelloProps } from "./components/Hello";
+import { JSONViewer, JSONViewerProps } from "./components/JSONViewer";
 
-(window as any).mount = (el: any, injected: HelloProps) => {
+(window as any).mount = (el: any, injected: JSONViewerProps) => {
+  console.log(injected);
 
-    console.log(injected)
-
-    ReactDOM.render(
-        <Hello {...injected} />,
-        el
-    );
-}
-
+  ReactDOM.render(<JSONViewer {...injected} />, el);
+};

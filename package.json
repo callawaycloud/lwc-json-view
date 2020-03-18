@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack react-app && cp dist/main.js force-app/main/default/staticresources/app.js",
-    "deploy": "npm run build && sfdx force:source:push"
+    "deploy": "npm run build && sfdx force:source:deploy -p force-app"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "@salesforce-ux/design-system": "^2.9.4",
     "@salesforce/design-system-react": "^0.10.9",
     "react": "16.8.3",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-json-view": "^1.19.1"
   }
 }

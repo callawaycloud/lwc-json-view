@@ -4,10 +4,10 @@
         "baseUrl": ".",
         "paths": {
             "c/jsonReactContainer": [
-                "jsonReactContainer/jsonReactContainer.js"
+                "../../../../force-app/main/default/lwc/jsonReactContainer/jsonReactContainer.js"
             ],
             "c/jsonViewerExample": [
-                "../../../../example/main/default/lwc/jsonViewerExample/jsonViewerExample.js"
+                "jsonViewerExample/jsonViewerExample.js"
             ]
         }
     },

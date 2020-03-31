@@ -1,0 +1,19 @@
+<apex:page standardController="Account">
+    <apex:includeLightning />
+    <div id="container">
+    </div>
+
+    <script>
+        $Lightning.use("c:JsonViewApp", function () {
+            $Lightning.createComponent(
+                "c:jsonViewerExample",
+                {
+                    recordId: '{!Account.Id}'
+                },
+                "container",
+                function (cmp) {
+                    console.log('component created');
+                });
+        });
+    </script>
+</apex:page>

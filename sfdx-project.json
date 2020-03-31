@@ -4,8 +4,12 @@
             "path": "force-app",
             "default": true,
             "package": "lwc-json-view",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionName": "ver 0.2",
+            "versionNumber": "0.2.0.NEXT"
+        },
+        {
+            "path": "example",
+            "default": false
         }
     ],
     "namespace": "",
@@ -13,6 +17,7 @@
     "sourceApiVersion": "46.0",
     "packageAliases": {
         "lwc-json-view": "0Ho1C000000002HSAQ",
-        "lwc-json-view@0.1.0-1": "04t1C000000goH5QAI"
+        "lwc-json-view@0.1.0-1": "04t1C000000goH5QAI",
+        "lwc-json-view@0.2.0-1": "04t1C000000goKJQAY"
     }
 }

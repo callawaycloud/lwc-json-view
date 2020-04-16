@@ -8,7 +8,8 @@ A Lightning Web Component that utilizes React and <a href="https://github.com/ma
 
 ## Setup
 
-1. <a href="https://my-domain.lightning.force.com/packaging/installPackage.apexp?p0=04t1C000000goKJQAY">Install</a> in your org
+1. Install in your org
+   - https://[your-domain-here].lightning.force.com/packaging/installPackage.apexp?p0=04t1C000000goKJQAY
 2. Create a LWC to implement in your org
    - Review <a href="https://github.com/ChuckJonas/lwc-json-view/tree/master/example/main/default">example</a> implementation for guidance
 

@@ -85,9 +85,10 @@ A Lightning Web Component that utilizes React and <a href="https://github.com/ma
       </apex:page>
       ```
 
-## Demo (put install instructions for the example)
+## Demo
 
-- <a href="https://my-domain.lightning.force.com/packaging/installPackage.apexp?p0=04t1C000000goKJQAY">Install</a> in your org
+- Install in your org
+   - https://[your-domain-here].lightning.force.com/packaging/installPackage.apexp?p0=04t1C000000goKJQAY
 - clone <a href="https://github.com/ChuckJonas/lwc-json-view">lwc-json-view</a> and deploy the example directory to your org
 - `sfdx force:org:open`
 
